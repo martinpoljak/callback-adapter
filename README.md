@@ -37,6 +37,6 @@ Copyright
 Copyright &copy; 2011 [Martin Kozák][10]. See `LICENSE.txt` for
 further details.
 
-[8]:
+[8]: http://rubyeventmachine.com/
 [9]: http://github.com/martinkozak/callback-adapter/issues
 [10]: http://www.martinkozak.net/
