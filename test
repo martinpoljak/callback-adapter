@@ -1,0 +1,23 @@
+#!/usr/bin/ruby
+# encoding: utf-8
+# (c) 2011 Martin Kozák (martinkozak@martinkozak.net)
+
+$:.push("./lib")
+$:.unshift("./lib")
+
+require "callback-adapter"
+require "riot"
+
+
+    class Foo
+        def bar(arg, &callback)
+            callback.call(arg)
+        end
+    end
+  
+context "CallbackAdapter" do
+    asserts("#method_missing") do
+        obj = CallbackAdapter::new(Foo::new)
+        obj.bar(123) == 123
+    end
+end
