@@ -8,6 +8,8 @@ without necessary paradigm shift.
 
 Some trivial example:
 
+    require "callback-adapter"
+    
     class Foo
         def bar(arg, &callback)
             callback.call(arg)
