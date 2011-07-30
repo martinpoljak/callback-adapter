@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{callback-adapter}
-  s.version = "0.1.0"
+  s.version = "0.1.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = [%q{Martin Kozák}]
-  s.date = %q{2011-07-27}
+  s.date = %q{2011-07-30}
   s.email = %q{martinkozak@martinkozak.net}
   s.extra_rdoc_files = [
     "LICENSE.txt",
@@ -17,12 +17,14 @@ Gem::Specification.new do |s|
   ]
   s.files = [
     ".document",
+    "CHANGES.txt",
     "Gemfile",
     "Gemfile.lock",
     "LICENSE.txt",
     "README.md",
     "Rakefile",
     "VERSION",
+    "callback-adapter.gemspec",
     "lib/callback-adapter.rb",
     "test"
   ]
