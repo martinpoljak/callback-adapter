@@ -19,8 +19,8 @@ Jeweler::Tasks.new do |gem|
   gem.homepage = "http://github.com/martinkozak/callback-adapter"
   gem.license = "MIT"
   gem.summary = 'Adapts a callback backed interface to an standard one, so allows safe thread-synchronized usage of evented or multithreaded libraries like EventMachine in standard applications without necessary paradigm shift.'
-    gem.email = "martinkozak@martinkozak.net"
-  gem.authors = ["Martin Kozák"]
+    gem.email = "martin@poljak.cz"
+  gem.authors = ["Martin Poljak"]
   # Include your dependencies below. Runtime dependencies are required when using your gem,
   # and development dependencies are only needed for development (ie running rake tasks, tests, etc)
   #  gem.add_runtime_dependency 'jabber4r', '> 0.1'
